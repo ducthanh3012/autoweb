@@ -1,0 +1,32 @@
+body{
+    background-image: url('../imgs/covid1.png');
+    background-repeat: no-repeat; /*  */
+    background-size: cover; /* kéo ra   */
+}
+h1{
+    color:green  ; /*viet theo ma mau red green blue
+    color:#0011ff; viet kieu  khac    */
+    font-size:50px;/* cỡ chữ  */
+    font-family:"Verdana";/*loai chu  */
+    font-weight:700;/* độ đậm nhạt của chữ: 1 dải 100-thin 300-light  400-normal 500-medium 600-semi bold   700-bold 800-extra bold 900-black */
+    line-height:50px;/* độ cao của dòng   */
+    text-decoration: underline;/* kiểu gạch chân, line through = gạch ngang, overline=gạch trên, none=ko gạch   */
+    text-transform: uppercase;/* viết hoa, lowercase=viết thường, capitalize=viết hoa chữ đầu tiên, none=để mặc định    */
+
+}
+p{
+    font-size:16px;
+    line-height:20px; /* độ cao của dòng 1.5=1.5 x fontsize  */
+    color:#333333;
+    /* độ rộng của dòng */
+    text-align: justify; /* right=căn phải, center=căn giữa, left=căn trái justify=căn đều  */
+    background-color: aliceblue; /* màu nền của chữ  */
+}
+
+p{
+    width: 600px;
+}
+
+img{
+    max-width: 100%; /* kích  thước tối đa ko vượt quá 100% cái chứa nó  */
+}
