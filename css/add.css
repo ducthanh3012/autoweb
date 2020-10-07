@@ -21,6 +21,8 @@ p{
     /* độ rộng của dòng */
     text-align: justify; /* right=căn phải, center=căn giữa, left=căn trái justify=căn đều  */
     background-color: aliceblue; /* màu nền của chữ  */
+    border: 1px solid deeppink; /* đường viền xung quanh cả vùng p: kích cỡ đường viền - solid dotted=nét đứt dashed=đường dải phân cách   */
+    text-shadow: 5px 5px 3px red; /* đổ bóng chữ: trục x, trục y độ rộng màu   */
 }
 
 p{
