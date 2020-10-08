@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8feb5c9b-95fa-4630-be53-870ef841b142" name="Default Changelist" comment="sua lai file index">
+    <list default="true" id="8feb5c9b-95fa-4630-be53-870ef841b142" name="Default Changelist" comment="CV Cookery">
+      <change afterPath="$PROJECT_DIR$/css/cssa2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvbarbara.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/add.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/add.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,6 +55,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CNNcovidVN.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hocweb/CNNcovidVN.html" useBuiltInWebServerPort="true">
@@ -75,7 +82,7 @@
       <workItem from="1601864131860" duration="2590000" />
       <workItem from="1601866987248" duration="7723000" />
       <workItem from="1602034895902" duration="1136000" />
-      <workItem from="1602036133371" duration="5437000" />
+      <workItem from="1602036133371" duration="13573000" />
     </task>
     <task id="LOCAL-00001" summary="Demo index">
       <created>1602035382637</created>
@@ -133,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602044619734</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="done">
+      <created>1602046043061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602046043061</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CV Cookery">
+      <created>1602143865726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602143865726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,18 +183,20 @@
     <MESSAGE value="day tat ca code" />
     <MESSAGE value="sua lai ten file" />
     <MESSAGE value="sua lai file index" />
-    <option name="LAST_COMMIT_MESSAGE" value="sua lai file index" />
+    <MESSAGE value="done" />
+    <MESSAGE value="CV Cookery" />
+    <option name="LAST_COMMIT_MESSAGE" value="CV Cookery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="125" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601872402672">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="125" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1601872402672" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602044623234">
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602143870385">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1602036068932" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1602044623234" />
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1602143870385" />
     <state x="518" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602035955402">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
