@@ -1,0 +1,44 @@
+*{
+
+}
+body{
+    background-color: azure;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: normal;
+    font-family: 'Be Vietnam', sans-serif;
+
+}
+div{
+    width: 500px; /*hoặc viết là 25%, hoặc: calc(25%-32px) để làm reponsive  */
+    height: 500px;
+    border: 1px solid  #ff0000;
+    padding:10px 15px 20px 5px ; /*giãn vùng nội dung và đường viền rapx Top Right Bottom Left, cái nào ko có thông số thì lấy cái đối diện nó */
+    /*width của div = width+padding+border  */
+    float: left; /*dồn các khối về bên trái Left-Right-None */
+    margin: 20px 15px 10px 25px; /*tạo khoảng cách bên ngoài phần tử: Top-Right-Bottom-Left , margin ko tính vào width của div  */
+    box-sizing: border-box; /*chỉ được sử dụng tối đa width px =500px  */
+    over-flow :hidden; /* xử lý các thứ tràn ra khỏi khối  */
+    box-shadow: 5px 5px 5px #ff0000; /* đổ bóng của div  */
+    border-radius: 5px; /* cắt góc viền  */
+    background-color: antiquewhite;
+    text-align: center;/* căn vào giữa khối chứa nó  */
+}
+img{
+    max-width: 100%;
+}
+#iphone{
+    width:800px;
+}
+#iphone img{
+    height:300px;
+    width: auto;
+}  /* thẻ img ở trong div iphone. Cách 2: #iphone > img: thẻ img phải là con trực tiếp của iphone   */
+#ref{
+    border-radius: 100%; /* cắt góc viền  */
+    over-flow :hidden; /* xử lý các thứ tràn ra khỏi khối  */
+    width: 300px;
+    height: auto;
+
+}

@@ -1,0 +1,102 @@
+*{
+
+}
+body{
+    background-color: #f1ecec;
+    background-image: url("../imgs/macbook.jpg");
+    background-repeat: no-repeat; /*  */
+    background-size: 1200px 1000px; /* kéo ra   */
+    background-position: center top ;
+    font-family: "Times New Roman";
+
+
+}
+#jame{
+    width: 885px;
+    height:740px;
+    margin: 50px 150px 0px 250px   ;
+    box-shadow: 1px 1px 1px 1px #f0f0f0;
+    background-color: #f0f0f0;
+
+}
+#jametop{
+    float: top;
+    text-align: left;
+    background-color: #bac3cc;
+    height: 150px;
+    width: calc(100%-30);
+    padding:30px;
+}
+#jameleft{
+    width: cacl(100%-350);
+    height: auto;
+    float: left   ;
+    text-align: justify;
+    padding:30px 30px 0px 320px;
+    background-color: #f0f0f0;
+}
+#jameright{
+    float: left;
+    background-color: #e7e7e7;
+    margin-top: -1020px;
+    margin-left: 30px;
+
+    text-align: left;
+    width: calc(22%);
+    height: auto;
+    padding: 60px 20px 0px 20px;
+
+}
+#jameright img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
+h1{
+    font-size: 20px
+}
+h2{
+    font-size: 18px;
+}
+p{
+
+    font-size: 18px;
+    line-height: 1.35;
+    text-align: left;
+}
+ul {
+
+    font-size: 18px;
+    line-height: 1.35;
+}
+#jameleft p{
+    text-align: justify;
+}
+#jametop h1{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#jametop h3{
+    margin-left: 300px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+#jameright  h1{
+    font-size: 20px;
+}
+#jameright  h2{
+    font-size: 14px;
+}
+#jameright p  {
+    line-height:1.15;
+}
+#phone img{
+    height: 18px;
+    width: 18px;
+    float: left;
+    padding: 3px;
+}
