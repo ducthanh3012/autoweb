@@ -5,27 +5,28 @@ body{
 #top{
     background-color: aliceblue;
     padding: 20px;
-    margin: 30px;
+    margin: 40px;
     font-size: 12px;
 }
 #top h1{
     margin-left: 20px;
 }
 #bottom{
-    margin-left: 20px;
+    margin-left: 60px;
 }
 .quanao{
     float: left;
-    width: 230px;
+    width: 260px;
     height: 400px;
     box-shadow: 0 0 7px #f0f0f0;
+    padding: 5px;
     margin: 20px;
     background-color: #f0f0f0;
 
 }
 .quanao img{
-    width: 230px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
 }
 .quanao h1{
     font-size: 16px;
@@ -37,7 +38,7 @@ body{
 
 }
 .quanao p{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
 
 }
