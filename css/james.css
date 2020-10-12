@@ -24,11 +24,11 @@ body{
     text-align: left;
     background-color: #bac3cc;
     height: 150px;
-    width: calc(100% - 30);
+    width: calc (100% - 30px );
     padding:30px;
 }
 #jameleft{
-    width: calc(100% - 350);
+    width: calc (100% - 350px);
     height: auto;
     float: left   ;
     text-align: justify;

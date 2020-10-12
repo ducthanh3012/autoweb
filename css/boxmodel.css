@@ -10,7 +10,7 @@ body{
     font-family: 'Be Vietnam', sans-serif;
 
 }
-div{
+.item{
     width: 500px; /*hoặc viết là 25%, hoặc: calc(25%-32px) để làm reponsive  */
     height: 500px;
     border: 1px solid  #ff0000;
@@ -25,20 +25,100 @@ div{
     background-color: antiquewhite;
     text-align: center;/* căn vào giữa khối chứa nó  */
 }
+.vn{
+    background-color: coral;
+    position: relative;
+}
+.ps{
+
+}
 img{
-    max-width: 100%;
+    max-width: 100% !important;
 }
 #iphone{
     width:800px;
+
 }
 #iphone img{
     height:300px;
     width: auto;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 5; /* z -index cao hơn thì nămf trên  */
+
 }  /* thẻ img ở trong div iphone. Cách 2: #iphone > img: thẻ img phải là con trực tiếp của iphone   */
 #ref{
-    border-radius: 100%; /* cắt góc viền  */
     over-flow :hidden; /* xử lý các thứ tràn ra khỏi khối  */
-    width: 300px;
-    height: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%; /* cắt góc viền  */
 
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index:4;
+
+}
+.bgfade{
+    background-color: #e7e7e7;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index:11;
+}
+.popup{
+    background-color: coral;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 0 5px #bac3cc;
+    position: fixed;
+    z-index: 12;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -175px;
+    display: none;
+    /* display: none block inline inline-block */
+
+}
+.trans{
+    /* transform: translate(100px,200px);
+    transform: rotate(45deg) điều chỉnh cách người dùng nhìn khối, ko phải dịch chuyển khối ;
+     */
+    transition: all 30ms; /* transform  */
+}
+.trans:hover{
+    transform: rotate(45deg);
+    background-color: coral;
+}
+.animate{
+    animation: box_animation;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframe box_animation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(720deg);
+    }
+}
+@keyframe box_animation2{
+    0%{
+    transform: rotate(0deg);
+}
+    50%{
+    transform: rotate(45deg);
+}
+    100%{
+    transform: rotate(90deg);
+}
 }

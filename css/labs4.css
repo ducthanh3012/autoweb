@@ -1,0 +1,59 @@
+body{
+    background-color: #e7e7e7;
+
+}
+#top{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 30px;
+    font-size: 12px;
+}
+#top h1{
+    margin-left: 20px;
+}
+#bottom{
+    margin-left: 20px;
+}
+.quanao{
+    float: left;
+    width: 230px;
+    height: 400px;
+    box-shadow: 0 0 7px #f0f0f0;
+    margin: 20px;
+    background-color: #f0f0f0;
+
+}
+.quanao img{
+    width: 230px;
+    height: 250px;
+}
+.quanao h1{
+    font-size: 16px;
+    text-align: center;
+}
+.quanao h2{
+    font-size: 14px;
+    text-align: center;
+
+}
+.quanao p{
+    font-size: 12px;
+    text-align: center;
+
+}
+.detail{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 7px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.detail p{
+    color: white;
+}
+.detail:hover{
+    transform: scale(1.1,1.1);
+    background-color: #333333;
+    opacity:1;
+}
