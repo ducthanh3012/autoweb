@@ -5,7 +5,7 @@ body{
     background-color: #f1ecec;
     background-image: url("../imgs/macbook.jpg");
     background-repeat: no-repeat; /*  */
-    background-size: 1200px 1000px; /* kéo ra   */
+    background-size: 1200px 1200px;
     background-position: center top ;
     font-family: "Times New Roman";
 
@@ -33,7 +33,7 @@ body{
     float: left   ;
     text-align: justify;
     padding:30px 30px 0px 320px;
-    background-color: #f0f0f0;
+    background-color: #eeeeee;
 }
 #jameright{
     float: left;

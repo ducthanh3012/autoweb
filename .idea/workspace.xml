@@ -10,18 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8feb5c9b-95fa-4630-be53-870ef841b142" name="Default Changelist" comment="Anh my tam">
-      <change afterPath="$PROJECT_DIR$/boxmodel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/boxmodel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/james.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cvjames.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/computer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/james.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/macbook.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/nha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/phone.png" afterDir="false" />
+    <list default="true" id="8feb5c9b-95fa-4630-be53-870ef841b142" name="Default Changelist" comment="CV James">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/james.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/james.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,7 @@
       <workItem from="1601866987248" duration="7723000" />
       <workItem from="1602034895902" duration="1136000" />
       <workItem from="1602036133371" duration="13802000" />
-      <workItem from="1602206925411" duration="14170000" />
+      <workItem from="1602206925411" duration="14513000" />
     </task>
     <task id="LOCAL-00001" summary="Demo index">
       <created>1602035382637</created>
@@ -184,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602148593015</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="CV James">
+      <created>1602244160626</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602244160626</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,16 +216,18 @@
     <MESSAGE value="CV Cookery" />
     <MESSAGE value="CV Barbara" />
     <MESSAGE value="Anh my tam" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anh my tam" />
+    <MESSAGE value="CV James" />
+    <option name="LAST_COMMIT_MESSAGE" value="CV James" />
   </component>
   <component name="WindowStateProjectService">
     <state x="125" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601872402672">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="125" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1601872402672" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602148597275">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602244164028">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1602244164028" />
     <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1602036068932" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1602148597275" />
     <state x="518" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602035955402">
