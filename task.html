@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creat Task</title>
+    <link rel="stylesheet" href="css/task.css">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="all">
+        <div id="chudongdau">
+        <p>
+            Create task
+        </p>
+        </div>
+        <div class="task">
+            <form action="#" method="get">
+                <input class="type" name="type" type="text" placeholder="Type"/>
+                <select class="dong2" name="company">
+                    <option value="fpt">FPT Software</option>
+                    <option value="viettel">Viettel Software</option>
+                    <option value="vin">Vin Software</option>
+                </select>
+                <select class="dong2" name="opportunity">
+                    <option value="ks">Kỹ sư lập trình</option>
+                    <option value="vp">Nhân viên văn phòng</option>
+                    <option value="kt">Kế toán</option>
+                </select>
+                <br/>
+                <div id="p1">
+                <p>
+                    Optional
+                </p>
+                </div>
+                <input class="type" name="task_name" type="text" placeholder="Task Name"/>
+                <input class="type2" name="cc" type="text" placeholder="CC"/>
+                <div id="p2">
+                <p>
+                    Optional
+                </p>
+                </div>
+                <div class="form_chon">
+                    <p>
+                        Nature of Request
+
+                    </p>
+                    <label><input name="request" value="name" type="radio"/>Ads Review</label>
+                    <br/>
+                    <label><input name="request" value="name" type="radio"/>Keywords Review</label>
+                    <br/>
+                    <label><input name="request" value="name" type="radio"/>Extensions Review</label>
+                    <br/>
+
+                </div>
+                <div class="form_chon">
+                    <p>
+                        Current Reviewable Status
+                    </p>
+                    <label><input name="status" value="name" checked type="radio"/>Approved</label>
+                    <br/>
+                    <label><input name="status" value="name" type="radio"/>Not Approved</label>
+                    <br/>
+
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
