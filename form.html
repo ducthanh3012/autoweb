@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="survey">
+        <form action="#" method="get">
+            <input class="form-control" name="full_name" minlength="5" maxlength="20" type="text" placeholder="Full Name"/>
+            <input class="form-control" required name="email" type="email" placeholder="Email"/>
+            <input class="form-control" required name="password" pattern="(?=.*/d)(?=.*[a-z])(?=.*[A-Z])" type="password" placeholder="Mật Khẩu"/>
+            <input class="form-control" name="age" min="18" max="60" type="number" placeholder="Tuổi"/>
+            <input class="form-control" name="birthday" type="date" placeholder="Ngày sinh"/>
+            <input class="form-control" name="mycolor" type="color" placeholder="Màu yêu thích"/>
+            <input name="price_range" type="range" min="0" max="100"/>
+            <p>Giới tính</p>
+            <label><input name="sex" value="name" checked type="radio"/>Nam</label>
+            <label><input name="sex" value="name" type="radio"/>Nữ</label>
+            <label><input name="sex" value="name" type="radio"/>Khác</label>
+            <p>
+                <label><input required type="checkbox" name="confirm"/>Tôi đã đọc và chấp nhận các điều khoản</label>
+            </p>
+            <p>Thành phố sinh sống</p>
+            <select name="city">
+                <option value="hn">Hà Nội</option>
+                <option value="sg">Sài Gòn</option>
+                <option value="hp">Hải Phòng</option>
+                <option value="dn">Đà Nẵng</option>
+                <option value="nd">Nam Định</option>
+                <option value="hd">Hải Dương</option>
+
+            </select>
+            <p>Nhận xét:</p>
+            <textarea name="comment" placeholder="Viết nhận xét của bạn."></textarea>
+            <br/>
+            <button type="submit">Gửi đi</button>
+            <button type="button">Button</button>
+            <button type="reset">Reset</button>
+
+
+
+        </form>
+    </div>
+
+</body>
+</html>

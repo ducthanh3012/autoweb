@@ -1,0 +1,18 @@
+.form-control{
+    width: 250px;
+    padding: 10px;
+    height: 25px;
+    background-color: coral;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 0 3px #bac3cc;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 15px;
+    color: #333333;
+    text-align: left;
+
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: 0 0 3px darkred;
+} /*trạng thái khi điền vào form*/
