@@ -16,13 +16,15 @@
         </div>
         <div class="task">
             <form action="#" method="get">
-                <input class="type" name="type" type="text" placeholder="Type"/>
-                <select class="dong2" name="company">
+                <input class="type" required name="type" type="text" placeholder="Type"/>
+                <select class="dong2" required name="company" placeholder="Company">
+                    <option value="none">Company</option>
                     <option value="fpt">FPT Software</option>
                     <option value="viettel">Viettel Software</option>
                     <option value="vin">Vin Software</option>
                 </select>
-                <select class="dong2" name="opportunity">
+                <select class="dong2" name="opportunity" placeholder="Opportunity">
+                    <option value="none">Opportunity</option>
                     <option value="ks">Kỹ sư lập trình</option>
                     <option value="vp">Nhân viên văn phòng</option>
                     <option value="kt">Kế toán</option>
@@ -33,7 +35,7 @@
                     Optional
                 </p>
                 </div>
-                <input class="type" name="task_name" type="text" placeholder="Task Name"/>
+                <input class="type" required name="task_name" type="text" placeholder="Task Name"/>
                 <input class="type2" name="cc" type="text" placeholder="CC"/>
                 <div id="p2">
                 <p>

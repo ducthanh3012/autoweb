@@ -10,6 +10,7 @@ body{
     width: 700px;
     height: 800px;
     margin-left: 300px;
+    border-radius: 10px;
 
 }
 #chudongdau{
@@ -26,6 +27,9 @@ body{
     margin: 20px 20px 20px 20px;
     font-size: 20px;
     line-height: 1.5;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    border-bottom: 2px solid black;
 
 }
 .type:focus{
@@ -42,6 +46,10 @@ body{
     margin: 20px 20px 0px 20px;
     font-size: 20px;
     line-height: 1.5;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    border-bottom: 2px solid black;
+
 
 }
 .type2:focus{
@@ -59,6 +67,10 @@ body{
     margin: 20px 20px 0px 20px;
     font-size: 20px;
     line-height: 1.5;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    border-bottom: 2px solid black;
+
 
 }
 .dong2:focus{
@@ -88,6 +100,8 @@ body{
     font-size: 18px;
     line-height: 1.8;
     font-weight: normal;
+    border-radius: 10px;
+
 }
 .form_chon p{
     font-size: 16px;
