@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*tất cả nội dung chưas bên trong đều trong cục đó */
+}
+body{
+    background-color: azure;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: normal;
+    font-family: 'Sansita Swashed', cursive;
+
+
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    float: none;
+}
+header{
+    background-color: #ffffff;
+
+
+}
+.header{
+    border: none;
+    border-bottom: 1px solid #bac3cc;
+    height: 100px;
+    padding: 20px 0 30px 10px;
+
+}
+.header h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.header h2{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+
+
+
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+.top-link{
+    width: 30%;
+    float: right;
+}
+.top-link li{
+    float: right;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2.0;
+
+}
+.nav{
+    height: 60px;
+    padding: 20px 0 0 20px;
+    background-color: white;
+}
+.menu li{
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+
+}
+.menu .last-item{
+    float: right;
+    list-style: none;
+    margin-left: 15px;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+.main{
+    background-color: #eeeeee;
+    padding: 30px;
+}
+.content{
+    float: left;
+    width: 66.67%;
+    padding: 50px;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.content h1{
+    font-size: 18px;
+    line-height: 2;
+    font-weight: bold;
+}
+.content img{
+    padding: 20px;
+}
+.content p{
+    text-align: justify;
+    line-height: 1.8;
+    padding: 10px 0 10px 0;
+
+}
+
+
+.aside{
+    float: left;
+    width: 33.33%;
+    padding: 0px 15px 15px 15px;
+
+}
+.aside h1{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.aside p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.aside placeholder{
+    font-size: 16px;
+}
+.block{
+    padding:20px 20px 20px 20px;
+    width: 100%;
+    background-color: white;
+    margin: 0 20px 20px 20px;
+}
+.subcribe{
+    color: white;
+    background-color: #333333;
+}
+
+.subcribe-1{
+    width:100%;
+    padding: 15px;
+}
+.form1{
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 0 0 0;
+
+    background-color: #e7e7e7;
+    height: 60px;
+
+}
+.form1:focus{
+    background-color: #ffffff;
+}
+.form2{
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0 0 0;
+    height: 60px;
+
+
+    background-color: #ff0000;
+}
+.form2:focus{
+    background-color: #ffffff;
+}
+.icon{
+    height: 200px;
+}
+.icon-image{
+    padding: 20px;
+    margin-left: 15px;
+}
+.icon img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.search{
+    width: 280px;
+    height: 80px;
+    padding: 10px;
+    border: 2px solid #bac3cc;
+    margin: 20px;
+    background-color: #ffffff;
+
+}
+
