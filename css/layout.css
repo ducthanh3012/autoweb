@@ -6,9 +6,6 @@
 body{
     background-color: azure;
     color: #333333;
-    font-size: 14px;
-    line-height: 1.25;
-    font-weight: normal;
     font-family: 'Sansita Swashed', cursive;
 
 
@@ -196,5 +193,8 @@ a{
     margin: 20px;
     background-color: #ffffff;
 
+}
+.search:focus{
+    background-color: white;
 }
 
