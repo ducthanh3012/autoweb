@@ -1,0 +1,24 @@
+body{
+    font-family: 'Be Vietnam', sans-serif;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: normal;
+
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.logo{
+    background-color: yellow;
+    height: 100px;
+}
+.top-link{
+    background-color: #bac3cc;
+    height: 100px;
+}
+.item{
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px #aaaaaa;
+} /*class= row: margin-left: -15px; margin-right:-15px */

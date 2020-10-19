@@ -11,8 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8feb5c9b-95fa-4630-be53-870ef841b142" name="Default Changelist" comment="layout">
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/bootstrap 3.4.1/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/demoboostrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoboostrap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +61,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lib/bootstrap 3.4.1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lib/bootstrap 3.4.1" />
       <recent name="$PROJECT_DIR$/imgs" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
@@ -86,7 +104,7 @@
       <workItem from="1602206925411" duration="15544000" />
       <workItem from="1602466203855" duration="28517000" />
       <workItem from="1602903398848" duration="3029000" />
-      <workItem from="1603069841976" duration="1336000" />
+      <workItem from="1603069841976" duration="5591000" />
     </task>
     <task id="LOCAL-00001" summary="Demo index">
       <created>1602035382637</created>
@@ -277,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603071036199</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="layout">
+      <created>1603071292430</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603071292430</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,13 +349,17 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="125" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1601872402672" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1603071046574">
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1603071295170">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603071046574" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603071295170" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1602650023020" />
     <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1602651128110" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1602148597275" />
+    <state x="585" y="273" key="cloudConfig.SelfSettingsDialog" timestamp="1603073948486">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="585" y="273" key="cloudConfig.SelfSettingsDialog/0.23.1440.797@0.23.1440.797" timestamp="1603073948486" />
     <state x="518" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602035955402">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
