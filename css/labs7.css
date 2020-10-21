@@ -106,10 +106,11 @@ img{
 }
 .main{
     padding-top: 50px;
+    background-color: white;
+
 }
 .boat-list{
     padding: 50px 170px;
-    background-color: white;
     text-align: center;
 }
 .boat-list p{
@@ -134,19 +135,25 @@ img{
 
 }
 .boat-detail button{
-    transition: all 0.3s;
     background-color: #f2f6f7;
     font-size: 20px;
+    transition: all 0.3s;
+
 }
 .boat-detail button:hover{
     background-color: #2aabd2;
     color: white;
+}
+.boat-detail-bg{
+    background-color: white;
+
 }
 
 .boat-detail-top{
     padding-top: 20px;
     padding-bottom: 20px;
     border: none;
+
 }
 .boat-detail-top a{
     color: #333333;
@@ -184,6 +191,18 @@ img{
 .boat-1{
     padding-bottom: 20px;
 }
+.page-button{
+    padding: 50px 480px 50px 480px;
+}
+.page-button-1{
+    margin-left: 5px;
+    transition: all 0.2s;
+}
+.page-button-1:hover{
+    background-color: #f0ad4e;
+}
+
+
 
 
 
