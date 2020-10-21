@@ -1,0 +1,189 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    float: none;
+}
+.background1{
+    background-image: url('../imgs/b01.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.header{
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.header-left{
+    float: left;
+}
+.header-left p{
+    color: white;
+    padding: 0 15px;
+}
+.header-right{
+    float: right;
+
+}
+.header-right a{
+    padding: 0 10px;
+
+}
+.nav{
+   float: left;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.nav-left{
+    float: left;
+
+}
+.nav-center{
+    padding-left: 450px;
+
+}
+.nav-center li{
+    color: white;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+}
+.nav-center a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.nav-center a:hover{
+    color: #2aabd2;
+}
+.nav-right{
+    padding-right: 0;
+    padding-left: 30px;
+    float: right;
+}
+.title{
+    margin: 100px 350px;
+    text-align: center;
+}
+.title h1{
+    color: white;
+    font-size: 60px;
+    line-height: 2;
+    font-weight: bolder;
+}
+.title ol{
+    padding-left: 100px;
+}
+.title li{
+    color: white;
+    font-size: 14px;
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+
+}
+.title a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.title a:hover{
+    color: #2aabd2;
+}
+.main{
+    padding-top: 50px;
+}
+.boat-list{
+    padding: 50px 170px;
+    background-color: white;
+    text-align: center;
+}
+.boat-list p{
+    line-height: 2.25;
+}
+.select-boat{
+    opacity: 0.5;
+    padding: 0 20px;
+}
+.select-boat select{
+    padding: 0 20px;
+    margin: 0 20px;
+    background-color: #f5f5f5;
+}
+.boat-detail{
+
+}
+.boat-detail img{
+    height: 200px;
+    width: 100%;
+    padding: 0;
+
+}
+.boat-detail button{
+    transition: all 0.3s;
+    background-color: #f2f6f7;
+    font-size: 20px;
+}
+.boat-detail button:hover{
+    background-color: #2aabd2;
+    color: white;
+}
+
+.boat-detail-top{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+}
+.boat-detail-top a{
+    color: #333333;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: bold;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.boat-detail-top a:hover{
+    color: #1b6d85;
+    text-decoration: underline;
+}
+.boat-detail-top p{
+    font-weight: bolder;
+    line-height: 2;
+}
+.boat-detail-top span{
+    font-weight: bold;
+    line-height: 2.7;
+    text-align: center;
+    opacity: 0.6;
+}
+.price{
+    font-size: 18px;
+    line-height: 2;
+}
+.describe{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: none;
+    border-top: #bac3cc 2px solid;
+    text-align: justify;
+}
+.boat-1{
+    padding-bottom: 20px;
+}
+
+
+
