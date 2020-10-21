@@ -11,20 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8feb5c9b-95fa-4630-be53-870ef841b142" name="Default Changelist" comment="học bootstrap">
-      <change afterPath="$PROJECT_DIR$/css/labs7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/b01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/background-labs7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/boat01labs7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/boat02labs7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/boat03labs7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/boat04labs7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/boat05labs7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/boat06labs7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/logo-labs7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/signlabs7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoboostrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/demoboostrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs7.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +88,7 @@
       <workItem from="1602466203855" duration="28517000" />
       <workItem from="1602903398848" duration="3029000" />
       <workItem from="1603069841976" duration="12256000" />
-      <workItem from="1603179966228" duration="11427000" />
+      <workItem from="1603179966228" duration="11808000" />
     </task>
     <task id="LOCAL-00001" summary="Demo index">
       <created>1602035382637</created>
@@ -305,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603076049334</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="học bootstrap">
+      <created>1603250018257</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603250018257</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,10 +348,10 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="125" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1601872402672" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1603076054083">
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1603250022558">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603076054083" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603250022558" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1602650023020" />
     <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1602651128110" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1602148597275" />
