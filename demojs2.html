@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS 2</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function canhbao(){
+            alert("Cảnh báo nguy hiểm");
+        }
+        //tạo độ trễ
+        //setTimeout(canhbao,3000); //3000ms, chỉ gọi tên hàm vào
+        //setTimeout(function(){
+           // alert("Hàm ẩn danh");
+       // },3000); //đây là cách viết 2 nếu ko muốn khai báo tên của hàm.
+        //setInterval(canhbao,3000); //hàm tạo độ trễ 3000ms và lặp lại vô hạn
+        const Clock=function(){
+            console.log("08:40");
+        } //đây là cách khai báo hàm kiểu mới
+        var min=1, sec=0;
+        var clock=function(){
+            console.log(min+":"+sec);
+            sec--;
+            if(sec<=0){
+                sec=59;
+                min--;
+            }
+
+            if(min<0){
+                //dừng đồng hồ, tắt khi hết giờ
+                clearInterval(time);
+
+            }
+        } //đây là cách khai báo hàm kiểu mới, vì hàm cũng là 1 ô nhớ
+        setInterval(clock,1000);
+        //clock(); //thực thi hàm.
+
+        //viết hàm theo kiểu arrow function, giống như cách trên:
+        var TinhTong = (a,b)=>{
+            return a+b;
+        }
+    </script>
+
+</body>
+</html>

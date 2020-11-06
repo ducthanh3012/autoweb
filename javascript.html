@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Học Javascript</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //code js viết ở đây
+        /*
+        var x=10;
+        if(x>5){
+            var y=20;
+        }
+        y++;
+        let k; //k là 1 biến nhưng chưa tốn ô nhớ
+        k=10; //k là 1 number
+        k="xin chao"; //k trở thành 1 string
+        console.log("k = "+k); //giống printf trong C
+        const c=25; //khai báo hằng số, ko thay đổi được
+        let ar= [];//khai báo ar là 1 mảng trống, kích thước mảng ko giới hạn
+        ar[0]=12;
+        ar[1]="hello";
+        ar[2]= [];
+        ar[1000]=9;
+        ar[2][1]="Xin chào";//phần tử con của ar[2]
+        ar[2][0]=[];//phải khai báo mảng trước khi khai báo phần tử con
+        ar[2][0][3]=8; //phần tử con của ar[2][0]
+        console.log(ar);
+        var arr=[];
+        arr[0]=[1,2,3,4];
+        arr[1]=[1,2,3,4];
+        arr[3]=[1,2,3,4];
+        //OBJECT (đối tượng)
+        let ob={};//ngoặc nhọn này là đối tương, mang các phần tử con là thông tin. Ko cần khai báo phần tử con, tự động nạp vào.
+        ob.name= "lê văn nam";
+        ob.age=19;
+        ob.birthday='20/10/1999';
+        console.log(ob);
+        if(ob.age>18){
+            console.log(ob.name+"da den tuoi truong thanh");
+        }
+        var sv=[1,4,2,5,6,3,6,2,8,10];
+        for(let i=0;i<sv.length;i++){
+            console.log("SV - "+sv[i]);
+        }
+        hello(); //có thể gọi trước khi viết hàm.
+        function tinhtong(a,b){ //khai báo 1 hàm tính tổng a và b, ko quan tâm việc khai báo tham số.
+            return a+b;
+        }
+        function hello(){
+            console.log("hello world");
+        }
+        var d= tinhtong(5,3);
+        alert("Day la canh báo"); // hàm tạo 1 cảnh báo trên trình duyệt người dùng.
+        var kq=confirm("Bạn có chắc chắn muốn mua hàng?"); //hàm tạo xác nhận, kết quả trả về là True or False;
+        console.log("Ketqua"+kq);
+        var p=prompt("Vui lòng điền tên của bạn:"); //trả về 1 string.
+        console.log(p);
+        var age = prompt("Nhập tuổi của bạn"); //trả về string
+        age=parseInt(age); //biến string thành number. hàm parseFloat() trả về 1 số thực
+        // 19 - 19
+        //19abc-19
+        //a19b-NaN=not a number --> có hàm isNaN để kiểm tra xem có phải Nan ko
+        //1a9-1
+        console.log(age);
+        //tạo 1 số ngẫu nhiên:
+        var luckynumber= parseInt(Math.random()*100);
+        // thông báo kết quả trúng thưởng;
+        //yêu cầu người dùng nhập 1 số từ 0 đến 99
+        var nhapso=null;
+        do {
+            nhapso=prompt("Vui lòng nhập 1 số từ 0 đến 99");
+            nhapso=parseInt(nhapso);
+        } while( isNaN (nhapso)|| nhapso<0 || nhapso>99 );
+        if(nhapso==luckynumber){
+            alert("Bạn đã trúng thưởng");
+        } else{
+            alert("Chúc bạn may mắn lần sau");
+        }
+         */
+
+        //vietlott: người dùng nhập 5 số khác nhau từ 00-45, trúng mấy số?
+        /*
+        let vl=[], kqvl=[];
+        for(let i=0;i<5;i++){
+            kqvl[i]=parseInt(Math.random()*46);
+            for(let j=0;j<i;j++){
+                if(kqvl[i]==kqvl[j]){
+                    kqvl[i]=parseInt(Math.random()*46);
+                }
+            }
+        }
+
+        for(let i=0;i<5;i++){
+            do {
+                vl[i]=prompt("Nhập số thứ " +(i+1)+ " từ 00-45:");
+                vl[i]=parseInt(vl[i]);
+                console.log("Các số bạn nhập "+vl[i]);
+            } while(
+                isNaN(vl[i]) || vl[i]<0 || vl[i] >45
+                );
+            for(let j=0;j<i;j++){
+                if(vl[i]==vl[j]){
+                    vl[i]=prompt("Trùng số, xin mời nhập lại số thứ "+(i+1));
+                    break;
+                }
+            }
+        }
+        let count=0;
+        for(let i=0;i<5;i++){
+            for(let j=0;j<5;j++){
+                if(vl[i]==kqvl[j])
+                    count++;
+
+            }
+        }
+        alert("Bạn đã trúng "+count);
+         */
+        let lucky=[];
+        for(let i=0;i<5;i++){
+            let x;
+            do{x=parseInt(Math.random()*100)}
+            while(lucky.includes(x));
+            lucky[i]=x;
+            console.log(lucky[i]);
+        }
+        let mynumbers=[];
+        for(let i=0;i<5;i++){
+            mynumbers[i]=[];
+        }
+        for(let i=0;i<5;i++){
+            for(let j=0;j<5;j++){
+                let x;
+                do{
+                    x=prompt("Nhap day so may man thu"+(i+1));
+                    x=parseInt(x);
+                } while (mynumbers[i].includes(x) || isNaN(x) || x<0 || x>99);
+                //mynumbers.push(x);
+                mynumbers[i].push(x);
+            }
+
+        }
+        //kiem tra trung giai
+        let sl=[];
+        for(let i=0;i<5;i++){
+            sl[i]=0;
+        }
+        for(let i=0;i<5;i++){
+            for(let j=0;j<5;j++){
+                if(lucky.includes(mynumbers[i][j]))
+                    sl[i]++;
+            }
+            if(sl[i]==5){
+                alert("Ban da trung 100 ty");
+                break;
+            }
+        }
+
+
+
+
+        //lk.includes(x): hàm kiểm tra mảng lk có chứa x hay ko
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>

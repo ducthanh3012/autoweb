@@ -11,8 +11,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8feb5c9b-95fa-4630-be53-870ef841b142" name="Default Changelist" comment="học bootstrap">
+      <change afterPath="$PROJECT_DIR$/JS/assignment13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/demnguoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/demoheader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/labs13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/labs14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSwithDOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/assignment13.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/demnguoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/event.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/labs13.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/labs14.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demnguoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demojs2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hocevent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsheader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs14.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sonheungmin.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/labs7.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/labs7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs4.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labs7.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +79,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -45,7 +102,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lib/bootstrap 3.4.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lib/fontawesome" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,6 +115,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lib/fontawesome" />
       <recent name="$PROJECT_DIR$/Lib/bootstrap 3.4.1" />
       <recent name="$PROJECT_DIR$/imgs" />
       <recent name="$PROJECT_DIR$/css" />
@@ -89,7 +147,13 @@
       <workItem from="1602466203855" duration="28517000" />
       <workItem from="1602903398848" duration="3029000" />
       <workItem from="1603069841976" duration="12256000" />
-      <workItem from="1603179966228" duration="14034000" />
+      <workItem from="1603179966228" duration="18299000" />
+      <workItem from="1603427380106" duration="281000" />
+      <workItem from="1603675917529" duration="10915000" />
+      <workItem from="1603794533585" duration="545000" />
+      <workItem from="1603795719486" duration="5815000" />
+      <workItem from="1604021449873" duration="640000" />
+      <workItem from="1604280515814" duration="25465000" />
     </task>
     <task id="LOCAL-00001" summary="Demo index">
       <created>1602035382637</created>
@@ -315,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603254448018</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="học bootstrap">
+      <created>1603256542441</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603256542441</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,10 +434,10 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="125" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1601872402672" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1603254453169">
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1603256546723">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603254453169" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603256546723" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1602650023020" />
     <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1602651128110" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1602148597275" />
@@ -378,9 +449,14 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="518" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.814@0.23.1440.814" timestamp="1602035955402" />
-    <state x="385" y="161" width="670" height="676" key="search.everywhere.popup" timestamp="1601892622939">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="777" y="23" width="567" height="778" key="dock-window-1" timestamp="1604576480380">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="777" y="23" width="567" height="778" key="dock-window-1/0.23.1440.797@0.23.1440.797" timestamp="1604576480380" />
+    <state x="385" y="158" width="670" height="664" key="search.everywhere.popup" timestamp="1604630239350">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="158" width="670" height="664" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1604630239350" />
     <state x="385" y="161" width="670" height="676" key="search.everywhere.popup/0.23.1440.812@0.23.1440.812" timestamp="1601892622939" />
     <state x="385" y="161" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1601864152852" />
   </component>

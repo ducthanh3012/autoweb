@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Học về Event</title>
+    <script src="JS/event.js"></script>
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="Lib/bootstrap 3.4.1/css/bootstrap.css">
+</head>
+<body>
+    <div id="box" onmouseenter="hover1(this);" onmouseleave="hover2(this);">
+
+    </div>
+    <button class="btn" type="button" onclick="click1();">Click here</button>
+    <input class="btn btn-default" type="text" name = "UserName" placeholder="UserName.."
+        onkeydown="key1(this);"
+        onkeyup="key2(this);"
+        onkeypress="key3(this);"
+           oncopy="cop1();"
+           oncut="cop1();"
+           onpaste="cop1();"
+    />
+    <select name="city" onchange="change1(this);">
+        <option value="1">Hà Nội</option>
+        <option value="2">Hà Giang</option>
+        <option value="3">Nam Định</option>
+        <option value="4">HCM</option>
+
+    </select>
+
+
+
+</body>
+</html>

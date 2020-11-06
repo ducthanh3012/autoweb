@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS with DOM</title>
+</head>
+<body>
+    <h1 id="heading1">Hello World</h1>
+
+
+    <img id="img01" src="imgs/iphone.jpg" height="20" width="20"/>
+    <div id="logo">
+
+    </div>
+
+    <script type="text/javascript">
+        function changeText(){
+            var head1 = document.getElementById("heading1"); //biến id heading1 trong html thành 1 object trong JS;
+            head1.innerText = "Good Morning"; //innerText là chữ bên trong
+            head1.style.color = "red"; //đổi màu.
+            head1.style.fontSize= "30px";
+            head1.style.backgroundColor = "orange";
+            //thêm class:
+            head1.classList.add("heading");
+            //kiểm tra xem phần tử có class này hay ko:
+            if(head1.classList.contains("heading")){
+                head1.classList.remove("heading");
+            }
+            //xoá class:
+            head1.classList.remove("heading");
+
+            //tác động đến img:
+            var im1=document.getElementById("img01");
+            im1.src = "imgs/email.png";
+            //bật tắt ảnh:
+            im1.style.display = "none";
+            im1.style.display = "block";
+
+
+        }
+        // thực thi hàm:
+        setTimeout(changeText,1000);
+
+        function AnHienAnh(){
+            var im1= document.getElementById("img01");
+            if(im1.style.display == "none"){
+                im1.style.display = "block";
+            } else{
+                im1.style.display = "none";
+            }
+        }
+        setInterval(AnHienAnh,3000);
+
+        function logo(){
+            var lg = document.getElementById("logo");
+            var ct = "<a href='#'><img src=\"imgs/covid1.png\"/></a>";
+            lg.innerHTML = ct;
+        }
+        setTimeout(logo,1000);
+    </script>
+
+
+
+</body>
+</html>
